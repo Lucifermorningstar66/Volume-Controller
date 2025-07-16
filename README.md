@@ -32,7 +32,6 @@ Control your system's audio volume using simple hand gestures via your webcam! T
 
 Make sure you have Python installed. Then install the required libraries:
 
-```bash
 pip install opencv-python mediapipe pycaw comtypes
 Note: This project is tested on Windows OS (due to PyCaw dependency).
 
@@ -57,11 +56,6 @@ The distance between your thumb tip and index finger tip is calculated.
 This distance is mapped to a volume level using linear interpolation.
 
 PyCaw interfaces with your system to change the volume accordingly.
-
-📸 Screenshots
-<div align="center"> <img src="screenshots/demo1.png" width="300"/> <img src="screenshots/demo2.png" width="300"/> </div>
-❓ Troubleshooting
-Make sure your webcam is working.
 
 If ModuleNotFoundError appears, install missing packages using pip.
 
