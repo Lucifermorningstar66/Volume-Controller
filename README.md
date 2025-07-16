@@ -26,16 +26,7 @@ Control your system's audio volume using simple hand gestures via your webcam! T
 
 ---
 
-## 🚀 Getting Started
-
-### ✅ Prerequisites
-
-Make sure you have Python installed. Then install the required libraries:
-
-pip install opencv-python mediapipe pycaw comtypes
-Note: This project is tested on Windows OS (due to PyCaw dependency).
-
-▶️ Run the Project
+## ▶️ Run the Project
 bash
 Copy
 Edit
@@ -48,39 +39,31 @@ Spreading them apart = High volume
 
 The system volume will update in real-time!
 
-🎥 How It Works
+---
+
+## 🎥 How It Works
 MediaPipe detects and tracks your hand in real-time.
-
 The distance between your thumb tip and index finger tip is calculated.
-
 This distance is mapped to a volume level using linear interpolation.
-
 PyCaw interfaces with your system to change the volume accordingly.
 
 If ModuleNotFoundError appears, install missing packages using pip.
 
 Ensure you're running on Windows (due to pycaw compatibility).
 
-🤝 Contributing
-Feel free to fork the repo and submit pull requests! Improvements such as:
+---
 
-Adding volume overlay UI
-
-Gesture recognition for mute/unmute
-
-Multi-platform support
-
-are more than welcome.
-
-📄 License
+## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-🙌 Acknowledgments
+---
+
+## 🙌 Acknowledgments
 MediaPipe – Real-time ML solutions by Google
-
 PyCaw – Control Windows volume with Python
-
 OpenCV community
 
-📬 Contact
+---
+
+## 📬 Contact
 Created by @Lucifermorningstar66 — feel free to connect!
