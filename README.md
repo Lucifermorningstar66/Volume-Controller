@@ -2,10 +2,6 @@
 
 Control your system's audio volume using simple hand gestures via your webcam! This project uses Python, OpenCV, and MediaPipe to track hand movements and adjust volume in real-time based on the distance between your fingers.
 
-<div align="center">
-  <img src="https://github.com/Lucifermorningstar66/Volume-Controller/assets/your-screenshot.gif" alt="Demo" width="600"/>
-</div>
-
 ---
 
 ## ✨ Features
@@ -27,16 +23,12 @@ Control your system's audio volume using simple hand gestures via your webcam! T
 ---
 
 ## ▶️ Run the Project
-bash
-Copy
-Edit
+```bash
 python Volume.py
+```
 A webcam window will open, and you'll be able to control volume by:
-
 Bringing your thumb and index finger close together = Low volume
-
 Spreading them apart = High volume
-
 The system volume will update in real-time!
 
 ---
